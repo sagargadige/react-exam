@@ -1,0 +1,31 @@
+const fallbackRecipes = [
+  {
+    id: 1,
+    title: "Vegetable Sandwich",
+    ingredients: "Bread, tomato, cucumber, onion, butter",
+    category: "Breakfast",
+    dietary: "Vegetarian",
+    instructions: "Spread butter, add vegetables, and grill for 3 minutes.",
+    dateAdded: "2026-03-01T08:30:00.000Z",
+  },
+  {
+    id: 2,
+    title: "Chickpea Salad",
+    ingredients: "Boiled chickpeas, cucumber, lemon, olive oil, salt",
+    category: "Lunch",
+    dietary: "Vegan",
+    instructions: "Mix all ingredients and chill for 10 minutes before serving.",
+    dateAdded: "2026-03-01T12:15:00.000Z",
+  },
+  {
+    id: 3,
+    title: "Paneer Stir Fry",
+    ingredients: "Paneer, capsicum, onion, soy sauce, garlic",
+    category: "Dinner",
+    dietary: "High Protein",
+    instructions: "Saute garlic, add vegetables and paneer, cook for 7 minutes.",
+    dateAdded: "2026-03-02T03:45:00.000Z",
+  },
+];
+
+export default fallbackRecipes;
